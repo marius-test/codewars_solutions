@@ -4,7 +4,7 @@ Write a function that takes an array of words and smashes them together into a s
 
 ## Example
 
-```python
+```text
 ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 ```
 
