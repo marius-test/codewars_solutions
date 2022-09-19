@@ -4,20 +4,20 @@ Write a function that takes an array of words and smashes them together into a s
 
 ## Example
 
-```
+```python
 ['hello', 'world', 'this', 'is', 'great']  =>  'hello world this is great'
 ```
 
 ### Given Code
 
-```
+```python
 def smash(words):
     return ""
 ```
 
 ### Sample Tests
 
-```
+```python
 import codewars_test as test
 from solution import smash
 
