@@ -1,2 +1,5 @@
 def bool_to_word(boolean):
-    pass
+    if boolean == True:
+        return 'Yes'
+    else:
+        return 'No'
