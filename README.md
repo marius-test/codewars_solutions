@@ -1,7 +1,7 @@
 # codewars_solutions
 
-Here I upload my own solutions to the problems I solve on Codewars.
+In this repository I upload my own solutions to the problems I solve on Codewars.
 
-Each problem is in a separate folder with the .md file as the problem and the .py file as the solution.
+Each problem is in a separate folder with the .md file as the description and the .py file as the solution.
 
-My Codewars profile: https://www.codewars.com/users/MariusB5
+My Codewars profile: <https://www.codewars.com/users/MariusB5>
