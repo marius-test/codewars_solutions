@@ -11,7 +11,6 @@ Description
 ## Notes
 
 *
-*
 
 ### Given Code
 
