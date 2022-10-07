@@ -1,0 +1,2 @@
+def correct(s):
+    pass
