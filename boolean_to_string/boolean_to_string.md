@@ -1,24 +1,26 @@
-# Convert boolean values to strings 'Yes' or 'No'
+# Convert a Boolean to a String
 
-Complete the method that takes a boolean value and return a ```"Yes"``` string for ```true```, or a ```"No"``` string for ```false```.
+Implement a function which convert the given boolean value into its string representation.
+
+Note: Only valid inputs will be given.
 
 ## Given Code
 
 ```python
-def bool_to_word(boolean):
-    # TODO
+def boolean_to_string(b):
+    #your code here
 ```
 
 ## Sample Tests
 
 ```python
 import codewars_test as test
-from solution import bool_to_word
+from solution import boolean_to_string
 
 @test.describe("Fixed Tests")
-def basic_tests():
+def fixed_tests():
     @test.it('Basic Test Cases')
     def basic_test_cases():
-        test.assert_equals(bool_to_word(True), 'Yes')
-        test.assert_equals(bool_to_word(False), 'No')
+        test.assert_equals(boolean_to_string(True), "True")
+        test.assert_equals(boolean_to_string(False), "False")
 ```

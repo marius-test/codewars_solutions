@@ -1,5 +1,6 @@
-def bool_to_word(boolean):
-    if boolean == True:
-        return 'Yes'
+def boolean_to_string(b):
+    if b == True:
+        return "True"
     else:
-        return 'No'
+        return "False"
+    
