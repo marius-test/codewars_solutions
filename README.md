@@ -1,6 +1,6 @@
 # codewars_solutions
 
-This repository contains my solutions to Codewars Python challenges.
+This repository contains my solutions to Codewars challenges.
 
 ### Structure
 
