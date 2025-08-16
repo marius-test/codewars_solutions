@@ -1,7 +1,16 @@
 # codewars_solutions
 
-In this repository I upload my own solutions to the exercises I solve on **Codewars**.
+This repository contains my solutions to Codewars challenges.
 
-Each problem is in a separate folder with the .md file as the description and the .py file as the solution.
+### Structure
 
-My Codewars profile: <https://www.codewars.com/users/MariusB5>
+- Each problem has its own folder named after the challenge.
+- Inside each folder:
+  - A `.md` file with the problem description.
+  - A `.py` file containing my solution.
+
+### Purpose
+
+To practice and improve my coding skills through solving a variety of algorithmic and programming challenges.
+
+My Codewars profile: [marius-test](https://www.codewars.com/users/marius-test)
