@@ -2,7 +2,7 @@
 
 Description
 
-## Example
+## Examples
 
 ```text
 
