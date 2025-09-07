@@ -1,10 +1,3 @@
-# for testing and debugging code
-
-round_1 = ("rock", "scissors")  # p1 wins
-round_2 = ("paper", "scissors")  # p2 wins
-round_3 = ("rock", "rock")  # draw
-
-
 def rps_v1(p1, p2):
     if p1 == p2:
         return "Draw!"
@@ -33,12 +26,3 @@ def rps_v2(p1, p2):
         return "Player 1 won!"
     else:
         return "Player 2 won!"
-
-
-if __name__ == "__main__":
-    print(rps_v1("rock", "paper"))
-
-# Outputs
-# "scissors", "paper" --> "Player 1 won!"
-# "scissors", "rock" --> "Player 2 won!"
-# "paper", "paper" --> "Draw!"
