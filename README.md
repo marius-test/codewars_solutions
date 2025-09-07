@@ -14,3 +14,12 @@ This repository contains my solutions to Codewars challenges.
 To practice and improve my coding skills through solving a variety of algorithmic and programming challenges.
 
 My Codewars profile: [marius-test](https://www.codewars.com/users/marius-test)
+
+### Notes
+
+For some of the challenges, multiple solutions are available. This reflects my learning process:
+
+- **Version 1** is typically my first attempt, focusing on a direct and clear programming.
+- **Later versions** (v2, v3) are my attempts at refactoring the code to be more concise and ***pythonic***, often with the help of tutorials.
+
+Some solutions are heavily commented. I use these comments as a personal learning tool to document key concepts for future reference.
