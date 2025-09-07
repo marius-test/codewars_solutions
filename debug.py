@@ -1,44 +1,9 @@
 # for testing and debugging code
 
-round_1 = ("rock", "scissors")  # p1 wins
-round_2 = ("paper", "scissors")  # p2 wins
-round_3 = ("rock", "rock")  # draw
 
-
-def rps_v1(p1, p2):
-    if p1 == p2:
-        return "Draw!"
-    
-    elif p1 == "rock" and p2 == "scissors":
-        return "Player 1 won!"
-    elif p1 == "scissors" and p2 == "paper":
-        return "Player 1 won!"
-    elif p1 == "paper" and p2 == "rock":
-        return "Player 1 won!"
-
-    elif p1 == "rock" and p2 == "paper":
-        return "Player 2 won!"
-    elif p1 == "scissors" and p2 == "rock":
-        return "Player 2 won!"
-    elif p1 == "paper" and p2 == "scissors":
-        return "Player 2 won!"
-
-
-def rps_v2(p1, p2):
-    if p1 == p2:
-        return "Draw!"
-    elif (p1 == "rock" and p2 == "scissors") or \
-         (p1 == "scissors" and p2 == "paper") or \
-         (p1 == "paper" and p2 == "rock"):
-        return "Player 1 won!"
-    else:
-        return "Player 2 won!"
+def func():
+    return print("It works!")
 
 
 if __name__ == "__main__":
-    print(rps_v1("rock", "paper"))
-
-# Outputs
-# "scissors", "paper" --> "Player 1 won!"
-# "scissors", "rock" --> "Player 2 won!"
-# "paper", "paper" --> "Draw!"
+    func()
