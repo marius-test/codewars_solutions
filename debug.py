@@ -2,8 +2,9 @@
 
 
 def func():
-    return print("It works!")
+    return "It works!"
 
 
 if __name__ == "__main__":
-    func()
+    print(func())
+    
