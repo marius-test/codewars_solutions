@@ -1,7 +1,4 @@
-# for testing and debugging code
 import re
-
-text1 = "the-stealth-warrior"
 
 
 def to_camel_case(text):
@@ -12,8 +9,3 @@ def to_camel_case(text):
     camel = "".join(result)
         
     return camel
-
-
-if __name__ == "__main__":
-    print(to_camel_case(text1))
-    
