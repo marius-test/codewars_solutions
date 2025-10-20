@@ -1,19 +1,10 @@
 # for testing and debugging code
-import re
-
-text1 = "the-stealth-warrior"
 
 
-def to_camel_case(text):
-    words = re.split("[-_]", text)
-    result = [words[0]]
-    for w in words[1:]:
-        result.append(w.capitalize())
-    camel = "".join(result)
-        
-    return camel
+def dna_to_rna(dna):
+    return
 
 
 if __name__ == "__main__":
-    print(to_camel_case(text1))
+    print("It works!")
     
