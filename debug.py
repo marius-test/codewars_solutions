@@ -1,12 +1,13 @@
 # for testing and debugging code
 
-dna1 = "GCAT"
+n = 58
 
 
-def dna_to_rna(dna):
-    rna = dna.replace("T", "U")
-    return rna
-
+def bit_counting(n):
+    b = bin(n)
+    b_digits = b.replace('0b', '')
+    
+    return b_digits.count('1')
 
 if __name__ == "__main__":
-    print(dna_to_rna(dna1))
+    print(bit_counting(n))
